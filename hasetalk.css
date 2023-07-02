@@ -1,0 +1,331 @@
+body {
+    background-color: #2A9Ea5;
+}
+
+
+header {
+    position: relative;
+    height: 170px;
+}
+
+
+#logobar {
+    position: absolute;
+    height: 120px;
+    width: 100dvw;
+    top:50px;
+    background-color: #2FB5B9;
+    display:flex; /*flex*/
+    align-items:center; /*縦位置の指定*/
+}
+
+.logo {
+    height: 100px;
+    margin-left: 30px;
+}
+
+#copy {
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", メイリオ, Meiryo, sans-serif;
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+
+#topicbar {
+    position: relative;
+    height: 90px;
+    width: 100dvw;
+    background-color: #59C2C8;
+}
+
+.topicbutton {
+    margin-left: 40px;
+    height: 90px;
+    width: 250px;
+    background-color: white;
+    display:flex; /*flex*/
+    align-items:center; /*縦位置の指定*/
+    justify-content: center;
+    font-size: 30px;
+    color: #34B5BC;
+}
+
+#topics {
+    position: relative;
+    background-color: white;
+    width: 100dvw;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.topic {
+    position:relative;
+    width: 90dvw;
+    height: 263px;
+    background-color: #DDF1F2;
+    border: solid 3px;
+    border-color: #55B9C2;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    margin-bottom: 50px;
+    padding: 5px;
+    display: flex;
+    align-items:center; /*縦位置の指定*/
+}
+
+.thumbnail {
+    width: 400px;
+    height:253px;
+}
+
+.topic-titlearea {
+    position: relative;
+    width: 450px;
+    height:253px;
+    margin-left: 20px;
+    display:flex;
+    flex-flow: column;
+    justify-content:space-around;
+}
+
+.topictitle {
+    position: relative;
+    width: 100%;
+    font-size: 40px;
+    overflow-wrap:  break-word;
+    color: #555555;
+}
+
+.new {
+    color: white;
+    background-color: #FF3B07;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tags {
+    background-color: white;
+    border: solid 3px;
+    border-color: #55B9C2;
+    border-radius: 30px;
+    width: 250px;
+    height: 40px;
+    color: #30B4B8;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#topics a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+
+#topics a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
+
+
+
+
+/* 回答画面*/
+
+
+
+#awnser {
+    position: relative;
+    background-color: white;
+    width: 100dvw;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#awnser-title-box {
+    position:relative;
+    width: calc(100dvw - 12px);
+    height: 263px;
+    background-color: white;
+    border-left: solid 12px #55B9C2;
+    border-top: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#awnser-title-top {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    display: flex;
+    align-items:center; /*縦位置の指定*/
+    justify-content:space-between;
+}
+
+#numbering {
+    color: white;
+    background-color: #FF3B07;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 50px;
+}
+
+#answertags {
+    background-color: white;
+    border: solid 3px;
+    border-color: #55B9C2;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+    color: #30B4B8;
+    font-size: 24px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#commentnum {
+    background-color: white;
+    border: solid 3px;
+    border-color: red;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    color: red;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#awnser-title {
+    position: relative;
+    width: 90%;
+    height: 170px;
+    margin-left: 5%;
+    font-size: 50px;
+    color: black;
+    display: flex;
+    align-items:center; /*縦位置の指定*/
+    justify-content:space-between;
+}
+
+#awnser-title p{
+    position: relative;
+    width: 100%;
+    overflow-wrap:  break-word;
+    font-weight: bold;
+}
+
+#searchbox {
+    position:relative;
+    width: 100dvw;
+    height: 90px;
+    background-color: #EEEEEE;
+}
+
+#awnsers {
+    position:relative;
+    width: 100dvw;
+    height: auto;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.answer {
+    position:relative;
+    width: 90dvw;
+    height: auto;
+    min-height: 170px;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: solid 1.3px gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+.answer-icon {
+    position: relative;
+    width: 170px;
+    height: 179px;
+}
+.answer-info {
+    position: relative;
+    width: calc(90dvw - 200px);
+}
+
+.username {
+    font-size: 37px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.user-answer {
+    font-size: 45px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+
+.gotop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;
+  background-color: #2A9Ea5;
+  display: block;
+  text-align: center;
+  border-radius: 75px;
+  z-index: 100;
+}
+
+.gotop::before {
+  content: '＜';
+  font-family: 'Font Awesome 6 Free';
+  font-size: 80px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 150px;
+  z-index: 100;
+}
+
+footer {
+    position: relative;
+    height: 170px;
+    background-color: #5AB0B7;
+}
+
+#footerbar {
+    position: relative;
+    height: 120px;
+    background-color: #76C0C7;
+}
+
+#copyright {
+    position: relative;
+    height: 50px;
+    background-color: #5AB0B7;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
