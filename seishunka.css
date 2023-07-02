@@ -1,19 +1,26 @@
 body {
-    background-color: white;
+    background-color: #F6E5CF;
+    background-image: url("img/furugami.png");
 }
 
 #wrapper {
     position: relative;
+    width: 94dvw;
+    margin-top: 6dvw;
+    margin-bottom: 6dvw;
+    margin-left: 3dvw;
+    margin-right: 3dvw;
+    border: solid 5px #00A7EA;
 }
 
 .logo {
     position: relative;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 30dvw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 50dvw;
+    margin-left: 25dvw;
+    margin-right: 25dvw;
 }
 
 .songbox {
@@ -21,12 +28,28 @@ body {
     margin: auto;
     margin-top: 20px;
     width: 90dvw;
+    border-bottom: solid 1px #00A7EA;
+}
+
+.age {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 80px;
+    color: #00A7EA;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style : italic;
 }
 
 .video{
     position: relative;
-    width: 90dvw;
+    width: 80dvw;
     height: 50dvw;
+    margin-left: 5dvw;
+    margin-right: 5dvw;
 }
 
 .title {
@@ -41,6 +64,6 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 90px;
     font-size: 25px;
 }
