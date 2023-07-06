@@ -4,6 +4,10 @@ body {
     font-family: "Lucida Grande", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", メイリオ, Meiryo, sans-serif;
 }
 
+* {
+    font-family: sans-serif;
+}
+
 #wrapper {
     position: relative;
     width: 94dvw;
@@ -68,6 +72,8 @@ body {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
     font-size: 11px;
     line-height: 14px;
 }

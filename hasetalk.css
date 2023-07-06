@@ -3,6 +3,10 @@ body {
     font-family: "Lucida Grande", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", メイリオ, Meiryo, sans-serif;
 }
 
+* {
+    font-family: sans-serif;
+}
+
 
 header {
     position: relative;
