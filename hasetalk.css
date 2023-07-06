@@ -1,5 +1,6 @@
 body {
     background-color: #2A9Ea5;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3", メイリオ, Meiryo, sans-serif;
 }
 
 
@@ -103,7 +104,7 @@ header {
     margin-right: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .tags {
